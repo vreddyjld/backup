@@ -1,0 +1,22 @@
+Started by GitHub push by vreddyjld
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/testwebhooks
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vreddyjld/testrepo.git
+ > git init /var/lib/jenkins/workspace/testwebhooks # timeout=10
+Fetching upstream changes from https://github.com/vreddyjld/testrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/vreddyjld/testrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/vreddyjld/testrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 559d07bfb4fa662927a333e75db2a878790d7547 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 559d07bfb4fa662927a333e75db2a878790d7547 # timeout=10
+Commit message: "Update big3.c"
+First time build. Skipping changelog.
+Finished: SUCCESS

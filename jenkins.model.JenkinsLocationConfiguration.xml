@@ -1,0 +1,4 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.model.JenkinsLocationConfiguration>
+  <jenkinsUrl>http://3.142.240.167:8080/</jenkinsUrl>
+</jenkins.model.JenkinsLocationConfiguration>

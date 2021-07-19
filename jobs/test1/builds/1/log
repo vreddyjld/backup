@@ -1,0 +1,22 @@
+Started by user [8mha:////4AmfHnnNdC6fLdBcYqUdIpF+Cj2fOsp93W2iXqYaLvkEAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgYe/dLi1CL9sqLUlJRKAHNTZA/BAAAA[0mVinod Kumar Reddy
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test1
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vreddyjld/testrepo.git
+ > git init /var/lib/jenkins/workspace/test1 # timeout=10
+Fetching upstream changes from https://github.com/vreddyjld/testrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/vreddyjld/testrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/vreddyjld/testrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision fa9b0ced5482f5f8589d8017bde3961b0acddc0d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fa9b0ced5482f5f8589d8017bde3961b0acddc0d # timeout=10
+Commit message: "added C source code"
+First time build. Skipping changelog.
+Finished: SUCCESS
